@@ -1,4 +1,6 @@
-export const Profile = ({ user: { username, tag, location, avatar, stats } }) => {
+export const Profile = ({
+  user: { username, tag, location, avatar, stats },
+}) => {
   return (
     <div>
       <div class="profile">
@@ -26,4 +28,4 @@ export const Profile = ({ user: { username, tag, location, avatar, stats } }) =>
       </div>
     </div>
   );
-}; 
+};
