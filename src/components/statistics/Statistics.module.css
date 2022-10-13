@@ -1,16 +1,42 @@
-.statList {
-  display: flex;
-  color: rgb(135, 253, 0);
-  align-items: center;
-  justify-content: center;
-
-}
-
-.item {
-background-color: rgb(241, 0, 0);
+.title {
+  text-align: center;
+  border: 1px solid;
+  border-bottom: 0px solid;
 }
 
 .statistics {
-    display: grid;
-    justify-items: center;
+  width: 300px;
+  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+
+}
+
+.statList {
+  display: flex;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid;
+  /* border-right: 2px solid; */
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid; */
+}
+
+.item {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  border: 1px solid;
+
+}
+
+.statList :not(:last-child) {
+
+  /* border: 2px solid; */
+
 }
