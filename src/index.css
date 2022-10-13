@@ -40,3 +40,10 @@ ol {
 li {
   list-style: none;
 }
+
+p.heders {
+font-size: 38px;
+font-weight: bold;
+color:darkgoldenrod;
+background-color:darkslategray;
+}
