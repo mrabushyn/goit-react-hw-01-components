@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 
 export const Statistics = ({ title, stats }) => {
-// const title = true;
   return (
     <section className={css.statistics}>
       <h2 className={css.title}>{title ? title : 'Upload stats'}</h2>

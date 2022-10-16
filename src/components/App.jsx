@@ -19,14 +19,14 @@ export const App = () => {
 
       <p className="heders">HW1.2 'Statistic'</p>
 
-      <Statistics stats={data} />
+      <Statistics stats={data} title={data} />
 
       <p className="heders">HW1.3 'FriendsList'</p>
 
       <FriendsList friends={friends} />
 
       <p className="heders">HW1.4 'Transaction'</p>
-      
+
       <TransactionHistory items={transactions} />
     </div>
   );
