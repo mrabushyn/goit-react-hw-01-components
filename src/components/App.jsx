@@ -19,7 +19,7 @@ export const App = () => {
 
       <p className="heders">HW1.2 'Statistic'</p>
 
-      <Statistics stats={data} title={data} />
+      <Statistics title="Upload stats" stats={data} />
 
       <p className="heders">HW1.3 'FriendsList'</p>
 
